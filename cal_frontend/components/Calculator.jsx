@@ -10,7 +10,7 @@ export default function Calculator() {
   async function submit(e) {
     e.preventDefault();
 
-    const resp = await fetch("https://calculator-fullstack-yjlz.onrender.com", {
+    const resp = await fetch("https://calculator-fullstack-yjlz.onrender.com/calc", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
