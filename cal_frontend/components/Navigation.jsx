@@ -1,10 +1,17 @@
 import Link from "next/link";
-
+import Image from "next/image";
 export default function  Navigation () {
   return (
     <header>
       <div className="bg-red-500 text-white p-5 flex justify-between items-center">
-        <h1 className="text-2xl font-bold">My LOGO</h1>
+      <Link href="/"> 
+        <Image
+          src="/next.svg"
+          width={150}
+          height={500}
+          alt="picture of the next"
+          alt="lawvriksh.com"          
+        /></Link>
 
         <ul className="flex gap-6">
           <li>
