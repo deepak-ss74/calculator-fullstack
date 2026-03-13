@@ -11,7 +11,7 @@ export default function  AdminNavi () {
           width={150}
           height={500}
           alt="picture of the next"
-          alt="lawvriksh.com"          
+             
         /></Link>
 
         <ul className="flex gap-6">

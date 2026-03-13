@@ -7,7 +7,7 @@ export const metadata ={
 export default function AdminLayout({ children }) {
   return (<>
   <AdminNavi/>
-            <h1   >Arun Loves NiTYA</h1>
+            <h1   >Arun Loves NA</h1>
         {children}
   </>
    

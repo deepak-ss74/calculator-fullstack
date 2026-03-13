@@ -27,7 +27,7 @@ export default function Calculator() {
   }
 
   return (
-    <div className="h-[90vh] flex items-center justify-center bg-gradient-to-br from-purple-500 via-blue-500 to-indigo-600 p-4">
+    <div className="h-[90vh] flex items-center justify-center bg-linear-to-br from-purple-500 via-blue-500 to-indigo-600 p-4">
 
       <form
         onSubmit={submit}

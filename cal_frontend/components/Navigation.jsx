@@ -10,8 +10,7 @@ export default function  Navigation () {
           width={150}
           height={500}
           alt="picture of the next"
-          alt="lawvriksh.com"          
-        /></Link>
+         /></Link>
 
         <ul className="flex gap-6">
           <li>
