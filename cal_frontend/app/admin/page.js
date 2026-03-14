@@ -1,5 +1,6 @@
 "use client";
-
+import UserDetail from "@/components/UserDetail";
+import Iinput from "./Iinput";
 import { useState, useEffect } from "react";
 import { FaHeart } from "react-icons/fa";
 
@@ -34,6 +35,12 @@ export default function Home1() {
 
   return (
     <div>
+      <UserDetail/>
+        <UserDetail name = "Deepak" age={33} />
+        <UserDetail name= "rahul" age ={33} />
+                    <h1   >Arun Loves NA</h1>
+                    <Iinput/>
+        
       <button
         onClick={handleClick}
         style={{
